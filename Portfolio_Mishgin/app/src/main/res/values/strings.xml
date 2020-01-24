@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Portfolio Mishagin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Home fragment</string>
+    <string name="android_evo">android evo</string>
+
+    <string name="text_about_me">
+        My name is Dmitry. I am a second year graduate student at ITMO University. I study
+        in the direction of Web technology.
+    </string>
+    <string name="text_about_job">
+        I work as a mentor at HTML Academy on HTML and CSS courses level 1, level 2. Worked in Ontico.ru Front-end programmer.
+    </string>
+    <string name="text_about_hobby">
+        In addition to studying, I am fond of 3D modeling and programming for microcontrollers.
+    </string>
+
+    <string name="no_settings_yet_wait_for_the_update">No settings yet, wait for the update!</string>
+    <string name="my_phone">
+        +7(919)888-99-11
+    </string>
+    <string name="my_email">mi@gmail.com</string>
+    <string name="plans_title">
+        My plans
+    </string>
+    <string name="plans_text">
+        My plans for the near future:
+
+Finish the last session, write two scientific articles on the topic of the dissertation, write and defend a dissertation.
+After graduation, I plan to work in the field of web development
+    </string>
+    <string name="edu_text">
+        In KGU, I received a bachelor\'s degree in automation of technological processes and produces.
+    </string>
+    <string name="edu_text2">
+        My skills include designing automated lines, setting up cnc machines, etc.
+    </string>
+    <string name="edu_text3">
+        After graduating from the ITMO Master\'s program, I will receive a master\'s degree in web technology.
+    </string>
+    <string name="edu_text4">
+        My professional skills: creating highly loaded services, researching the web, and so on.
+    </string>
+    <string name="my_dissertation_title">My dissertation</string>
+    <string name="my_dissertation_text">
+        My dissertation is about progressive web applications.
+    </string>
+    <string name="my_dissertation_text2">
+        A progressive web application is a technology in web development that adds opportunities for mobile applications to sites, transforms a site into an application, a hybrid of a site and applications for mobile devices, a product of the joint evolution of a mobile site and a classic native application.
+    </string>
+    <string name="my_dissertation_text3">Progressive Web Apps are user experiences that have the reach of the web\, and are\:
+        Reliable \- Load instantly and never show the downasaur\, even in uncertain network conditions.
+Fast \- Respond quickly to user interactions with silky smooth animations and no janky scrolling.
+Engaging \- Feel like a natural app on the device, with an immersive user experience.
+This new level of quality allows Progressive Web Apps to earn a place on the user\'s home screen.</string>
+</resources>

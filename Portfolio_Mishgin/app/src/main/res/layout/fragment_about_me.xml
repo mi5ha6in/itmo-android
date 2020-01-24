@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="315dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/android_evo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avatar"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="@font/merienda"
+                android:paddingStart="15dp"
+                android:text="@string/text_about_me"
+                android:textAlignment="textStart"
+                android:textColor="@color/material_drawer_dark_primary_text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="@font/merienda"
+                android:paddingStart="15dp"
+                android:text="@string/text_about_job"
+                android:textAlignment="textStart"
+                android:textColor="@color/material_drawer_dark_primary_text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="@font/merienda"
+                android:paddingStart="15dp"
+                android:text="@string/text_about_hobby"
+                android:textAlignment="textStart"
+                android:textColor="@color/material_drawer_dark_primary_text"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_call"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/materialize_baseline_grid_x10"
+                    android:fontFamily="@font/rosario"
+                    android:text="@string/my_phone" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_email"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rosario"
+                    android:text="@string/my_email" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
