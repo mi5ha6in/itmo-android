@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 .withName("My Dissertation")
                 .withIcon(FontAwesome.Icon.faw_bookmark);
         PrimaryDrawerItem item5 = new PrimaryDrawerItem()
-                .withName("Мои контакты")
+                .withName("My contacts")
                 .withIcon(FontAwesome.Icon.faw_address_card);
         Drawer result = new DrawerBuilder()
                 .withActivity(this)
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                                 break;
                             case 5:
                                 fragmentClass = MyContactsFragment.class;
-                                Objects.requireNonNull(getSupportActionBar()).setTitle("Мои контакты");
+                                Objects.requireNonNull(getSupportActionBar()).setTitle("My contacts");
                                 break;
 
                         }

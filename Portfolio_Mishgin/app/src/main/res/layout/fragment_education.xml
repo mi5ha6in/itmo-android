@@ -20,7 +20,7 @@ tools:context=".MyEducationFragment">
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:fontFamily="@font/merienda"
-            android:text="Получило образование в следующих учебных заведениях:"
+            android:text="I was educated in the following educational institutions:"
             android:textAlignment="center"
             android:textSize="@dimen/material_drawer_account_header_title" />
 
